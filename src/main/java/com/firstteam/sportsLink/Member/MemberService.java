@@ -1,7 +1,5 @@
 package com.firstteam.sportsLink.Member;
 
-import com.firstteam.sportsLink.qna.PageRequestDTO;
-import com.firstteam.sportsLink.qna.QnaDTO;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +7,10 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.stereotype.Service;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.ui.Model;
+
+import com.firstteam.sportsLink.Qna.PageRequestDTO;
+import com.firstteam.sportsLink.Qna.QnaDTO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
